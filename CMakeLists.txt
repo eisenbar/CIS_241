@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
-project(Project1_v2)
+project(Project2)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES main.c functions.h functions.c)
-add_executable(Project1_v2 ${SOURCE_FILES})
+set(SOURCE_FILES main.c operations.h operations.c)
+add_executable(Project2 ${SOURCE_FILES})
